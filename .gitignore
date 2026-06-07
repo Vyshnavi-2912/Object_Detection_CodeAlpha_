@@ -1,0 +1,34 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual Environments
+venv/
+.venv/
+ENV/
+env/
+
+# Node modules and Frontend build files
+node_modules/
+dist/
+.eslintcache
+
+# Local databases
+*.db
+*.sqlite3
+
+# Large AI model weight files
+Models/*.pt
+Models/*.onnx
+
+# Processed videos & temp static files
+Backend/static/videos/*.mp4
+Backend/static/videos/*.avi
+Backend/static/screenshots/*.jpg
+Backend/static/screenshots/*.png
+
+# OS metadata
+.DS_Store
+Thumbs.db
