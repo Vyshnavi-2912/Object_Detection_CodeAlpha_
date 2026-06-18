@@ -1,8 +1,8 @@
 import io
-import pandas as pd
-import matplotlib
+#import pandas as pd
+#import matplotlib
 matplotlib.use('Agg') # Server-safe headless backend
-import matplotlib.pyplot as plt
+#import matplotlib.pyplot as plt
 
 from reportlab.lib.pagesizes import letter
 from reportlab.lib import colors
