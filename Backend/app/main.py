@@ -40,7 +40,7 @@ os.makedirs(VIDEOS_DIR, exist_ok=True)
 app.mount("/static", StaticFiles(directory=STATIC_DIR), name="static")
 
 # Shared YOLO Detector instance (loaded once on startup)
-detector = YOLODetector()
+detector = None
 
 # Thread-safe dictionary to track background video processing jobs
 video_jobs = {}
