@@ -267,7 +267,7 @@ def get_health_check():
     """
     try:
         db_status = "online"
-        yolo_status = "online" if detector.model is not None else "offline"
+        yolo_status = "offline" if detector is  None else "online"
         
         # Verify SQLite connection
         try:
