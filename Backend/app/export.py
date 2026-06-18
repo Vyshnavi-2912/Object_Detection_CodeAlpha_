@@ -1,7 +1,7 @@
 import io
 #import pandas as pd
 #import matplotlib
-matplotlib.use('Agg') # Server-safe headless backend
+#matplotlib.use('Agg') # Server-safe headless backend
 #import matplotlib.pyplot as plt
 
 from reportlab.lib.pagesizes import letter
