@@ -1,6 +1,8 @@
 # AuraTrack.AI - AI Object Detection & Trajectory Tracking Suite
 #live demo 
-Frontend:https://object-detection-codealpha-1.onrender.com
+Frontend: https://object-detection-codealpha-1.onrender.com
+Last Updated: June 19, 2026
+
 
 AuraTrack.AI is a complete, production-ready, SaaS-style AI Object Detection and Multi-Object Tracking web application. Engineered as an internship-winning portfolio project, it delivers real-time webcam telemetry analysis via high-speed WebSockets and asynchronous video file processing.
 
